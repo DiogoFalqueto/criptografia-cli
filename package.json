@@ -1,8 +1,16 @@
 {
   "dependencies": {
     "arg": "^5.0.2",
-    "crypt-js": "^1.0.4",
     "crypto-js": "^4.1.1",
     "prompts": "^2.4.2"
-  }
+  },
+  "name": "criptografia-cli",
+  "version": "1.0.0",
+  "main": "encript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diogo Falqueto <Diogo.m.falqueto@protonmail.com>",
+  "license": "MIT",
+  "description": ""
 }
