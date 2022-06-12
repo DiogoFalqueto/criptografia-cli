@@ -1,3 +1,5 @@
+#!/bin/env node
+
 const fsPromise = require("fs/promises")
 const cryptojs = require("crypto-js")
 const arg = require("arg")
@@ -39,7 +41,7 @@ main()
 //Logica
 
 async function encryptFile(fileName, password, fileNameEncrypt){
-	const file = await fsPromise.readFile("test.txt", "utf-8")
+	const file = await fsPromise.readFile(fileName, "utf-8")
 	const encryptFile = cryptojs.AES.encrypt(file, password).toString()
 	await fsPromise.writeFile(fileNameEncrypt, encryptFile)
 	console.log("File encrypt: ${fileNameEncrypt} completo!")

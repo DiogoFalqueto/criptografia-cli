@@ -12,5 +12,8 @@
   },
   "author": "Diogo Falqueto <Diogo.m.falqueto@protonmail.com>",
   "license": "MIT",
-  "description": ""
+  "description": "CLI for encript file.",
+  "bin": {
+    "encript": "./encript.js"
+  }
 }
