@@ -4,7 +4,7 @@
     "crypto-js": "^4.1.1",
     "prompts": "^2.4.2"
   },
-  "name": "criptografia-cli",
+  "name": "@diogofalqueto/criptografia-cli",
   "version": "1.0.0",
   "main": "encript.js",
   "scripts": {
